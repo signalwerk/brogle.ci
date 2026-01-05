@@ -17,13 +17,23 @@
       href="https://fonts.signalwerk.ch/css/latest/family=IBM+Plex+Mono:ital,wght@0,400..700;1,400..700.css"
       rel="stylesheet"
     />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
 
     <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
       html {
         font-family: "Open Sans", sans-serif;
         font-weight: 400;
@@ -187,6 +197,7 @@
               <code>0</code> | <code>0</code> | <code>0</code> <br />
               <code>#000000</code>
             </p>
+            <small>RGB als sRGB</small>
           </div>
 
           <div class="col-w6">
@@ -200,11 +211,12 @@
             <small> CMYK gemäss ISO 12647-2:2013 </small>
             <h4>Pantone</h4>
             <p><code>362 C</code> | <code>362 U</code></p>
-            <h4>sRGB</h4>
+            <h4>RGB</h4>
             <p>
               <code>25</code> | <code>123</code> | <code>48</code> <br />
               <code>#197B30</code>
             </p>
+            <small>RGB als sRGB</small>
           </div>
         </div>
       </div>
@@ -232,8 +244,18 @@
 
         <ul>
           <li>
-            <a href="./briefblatt/Briefblatt.doc"
-              >Download · Briefblatt · Word (.doc)</a
+            <a href="./briefblatt/Briefblatt.docx"
+              >Download · Briefblatt (allgemein) · Word (.docx)</a
+            >
+          </li>
+          <li>
+            <a href="./briefblatt/Briefblatt_Gartenbau.docx"
+              >Download · Briefblatt Gartenbau · Word (.docx)</a
+            >
+          </li>
+          <li>
+            <a href="./briefblatt/Briefblatt_Holzbau.docx"
+              >Download · Briefblatt Holzbau · Word (.docx)</a
             >
           </li>
         </ul>
